@@ -1,0 +1,1 @@
+# bieltvedtrallysport.no-static-resources
