@@ -1,0 +1,3 @@
+site-template-image-5_w240h160.png	- Rally Hadeland bilde 4
+site-template-image-6_w240h160.png	- Sigdalsrally bilde 2
+site-template-image-7_w240h160.png	- Rally Norway bilde 11

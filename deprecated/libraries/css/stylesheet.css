@@ -1,0 +1,665 @@
+body {
+	background-color: white;
+	background-image: url('/resources/design-template-1-images/body-bg.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-attachment: fixed;
+	color: #777777;
+	font-family: 'Trebuchet MS', 'Verdana', 'Arial', 'Helvetica', 'Sans-serif', 'sans';
+	font-size: 9pt;
+	height: 99%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	left: auto;
+	right: auto;
+	height: 100%;
+}
+
+#header {
+	width: 1000px;
+	background-image: url('/resources/design-template-1-images/header.png');
+	background-repeat: no-repeat;
+}
+
+#subProjectsNavBar {
+	color: white;
+	text-align: right;
+	margin: 0px;
+	color: #ffffff;
+	padding: 134px 14px 2px;
+	font-size: 12px;
+}
+
+#subProjectsNavBar a, #subProjectsNavBar a:link, #subProjectsNavBar a:visited {
+	color: #ffffff;
+	text-decoration:none;
+}
+
+#subProjectsNavBar a:hover {
+	color: #ffffff;
+	border-bottom: solid #ffffff 1px;
+}
+
+#subProjectsNavBar a strong {
+	font-weight: bold;
+	color: #ffffff;
+	border-bottom: solid #ffffff 1px;
+}
+
+#content {
+	background: url(/resources/design-template-1-images/content-backgound.png) repeat-y;
+}
+
+#endContent {
+	clear: both;
+	padding-bottom: 30px;
+}
+
+#leftColumn {
+	float: left;
+	width: 206px;
+}
+
+#rightColumn {
+	float: right;
+	width: 760px;
+	padding-right: 25px;
+	text-align: left;
+	padding-top: 8px;
+}
+
+#editPage {
+	float: right;
+	padding-top: 5px;
+}
+
+h1,h2,h3,h4,h5,h6,h7,h8 {
+	color: #C3003F;
+}
+
+h1 {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+
+h5 {
+	font-size: 1.0em;
+}
+
+a {
+	color: #777777;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #000000;
+}
+
+a.none {
+	background: transparent;
+	padding-right: 0px;
+}
+
+#navigation {
+	padding-left: 20px;
+	/** font-weight: 600; */
+}
+
+#navigation ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation li {
+	list-style-type: none;
+	margin-left: 15px;
+	padding-left: 0px;
+}
+
+#navigation li ul {
+	margin-left: 1.5em;
+}
+
+#navigation a {
+	text-decoration: none;
+	color: #777777;
+}
+
+#navigation a:hover {
+	color: #000000;
+	font-weight: bolder;
+}
+
+#navigation div {
+	/** line-height: 1.5em; */
+	/** margin-bottom: 2em; */
+}
+
+#navigation h5 {
+	font-size: 1em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#navigation strong {
+	color: #000000;
+}
+
+
+.endsection, .pagesubheading {
+	display: none;
+}
+
+
+
+#footer {
+	font-size: 11px;
+	width: 1000px;
+	height: 32px;
+	text-align: center;
+	background-image: url('/resources/design-template-1-images/footer.png');
+	background-repeat: no-repeat;
+}
+
+.nobr sup img {
+	display:none;
+}
+
+
+.preformattedContent pre {
+	padding: 5px 10px;
+	border: 1px dashed #1a6c0b;
+	background-color: #f0f0f0;
+}
+
+blockquote {
+	margin: 10px;
+	padding: 0px 10px;
+	border-left: 1px solid #1a6c0b;
+}
+
+table.sponsorTable
+{
+    border-collapse: collapse;
+}
+
+/* Added as a temporary fix for CONF-4223. The table elements appear to be inheriting the border: none attribute from the sectionMacro class */
+table.sponsorTable td.confluenceTd
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #777777;
+    padding: 3px 4px 3px 4px;
+}
+
+/* Added as a temporary fix for CONF-4223. The table elements appear to be inheriting the border: none attribute from the sectionMacro class */
+table.sponsorTable th.confluenceTh
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 3px 4px 3px 4px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+td.confluenceTd
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 3px 4px 3px 4px;
+}
+
+th.confluenceTh
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 3px 4px 3px 4px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.noteMacro {
+	border: 1px solid #f0c000;
+	background-color: #ffffce;
+    margin-top: 5px; 
+    margin-bottom: 5px
+}
+
+.warningMacro { 
+    border: 1px solid #c00;
+    background-color: #fcc; 
+    text-align:left; 
+    margin-top: 5px; 
+    margin-bottom: 5px
+}
+
+.infoMacro {
+    border: 1px solid #3c78b5; 
+    background-color: #D8E4F1; 
+    text-align:left; 
+    margin-top: 5px; 
+    margin-bottom: 5px
+}
+
+.tipMacro { 
+    border: 1px solid #090;
+    background-color: #dfd; 
+    text-align:left; 
+    margin-top: 5px; 
+    margin-bottom: 5px
+}
+
+.code {
+ 	border: 1px dashed #1a6c0b;
+    font-size: 11px;
+	font-family: Courier;
+    margin: 10px;
+	line-height: 13px;
+}
+
+.codeHeader {
+    background-color: #f0f0f0;
+ 	border-bottom: 1px dashed #1a6c0b;
+    padding: 3px;
+	text-align: center;
+}
+
+.codeContent {
+    text-align: left;
+    background-color: #f0f0f0;
+    padding: 3px;
+}
+
+.code-keyword {
+  color: #000091;
+  background-color: inherit;
+}
+
+.code-object {
+  color: #910091;
+  background-color: inherit;
+}
+
+.code-quote {
+  color: #009100;
+  background-color: inherit;
+}
+
+.code-comment {
+  color: #808080;
+  background-color: inherit;
+}
+
+.code-xml .code-keyword {
+  color: inherit;
+  font-weight: bold;
+}
+
+.code-tag {
+  color: #000091;
+  background-color: inherit;
+}
+
+img {
+  border: none;
+}
+
+table tbody tr.bold td {
+  font-weight: bold;
+}
+
+table.resultTable {
+  border-collapse: collapse;
+}
+
+table.resultTable td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#sidebar {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	margin: 0 1.5em 0 0.5em;
+	padding: 0.5em;
+	font-size: 0.9em;
+}
+
+#sidebar h3 {
+	color: #777777;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.9em;
+	margin-top: 2em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #777777;
+	margin-left: 1em;
+}
+
+#sidebar h4 {
+	color: #777777;
+	font-size: 0.9em;
+	font-weight: normal;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+#sidebar table {
+	color: #777777;
+	font-size: 0.9em;
+	font-weight: normal;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+#sidebar table tr td {
+	padding-right: 4px;
+}
+
+#sidebar ul {
+	list-style : none;
+	margin : 0px;	
+	padding : 0px;
+	margin-bottom : 10px;
+}
+
+#sidebar li {
+	margin-top: 6px;
+}
+
+#sidebar a {
+	font-size: 0.9em;
+}
+
+#sidebar span {
+	font-size: 0.9em;
+}
+
+#sidebar a:active, #sidebar a:visited, #sidebar a:link {
+	color: #C3003F;
+	text-decoration : none;	
+	margin-right : 0px;
+	padding : 2px;
+	margin-left : 8px;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+
+.teamProfile td {
+	padding: 10px 10px 10px 10px;
+}
+
+.article img, .medieomtale img {
+	padding: 3px;
+	border: 1px solid #666666;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+
+.line {
+	
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #777777;
+	width: 100%;
+}
+
+.check {
+	padding: 0;
+	margin: 0 0 0 18px;
+	list-style: outside url("/resources/design-template-1-images/check.png");
+}
+
+.squarepoint {
+	padding: 0;
+	margin: 0 0 0 18px;
+	list-style: outside url("/resources/design-template-1-images/point-square.png");
+}
+
+.squarelist {
+	list-style: outside url("/resources/design-template-1-images/point-square.png");
+	margin-top: 10px;
+}
+
+
+.stoettespillere img {
+	padding: 20px;
+}
+
+
+/* --- Form --- */
+input,
+textarea{
+	font-family: Arial;
+	font-size: 12px;
+	color:#AAAAAA;
+}
+
+.button {
+	padding: 0px;
+	font-size: 0.9em;
+	border-style: solid;
+	border: 1px;
+	background-color: black;
+	color: white;
+background-image: url('/resources/design-template-1-images/send-button.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+input.text,
+textarea{
+	border: 1px solid #CCCCCC;
+	width: 350px;
+}
+
+td.label{
+	font-weight: bold;
+	vertical-align: top;
+	padding: 3px 10px 0px 15px;
+}
+
+td.input{
+	vertical-align: top;
+	padding-bottom: 6px;
+}
+
+.errorMessage {
+	color: red;
+}
+/* --- End Form --- */
+
+
+.textlink a:active, .textlink a:visited, .textlink a:link .textlink a:hover {
+	color: #777777;
+	text-decoration: underline;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.anchorBox a {
+	cursor: hand;
+	text-decoration: none;
+}
+
+.anchorBox a:active, .anchorBox a:visited, .anchorBox a:link .anchorBox a:hover {
+	color: white;
+	font-weight: normal;
+}
+
+/****************************************************************************************
+ * Classes for rounded corner box bordered                                              *
+ ****************************************************************************************/
+.roundedCornerBoxBordered .upperLeftCorner, .roundedCornerBoxBordered .upperRightCorner, .roundedCornerBoxBordered .lowerLeftCorner, .roundedCornerBoxBordered .lowerRightCorner {
+	width: 15px;
+	height: 15px;
+	padding: 0px;
+	margin: 0px;
+	background-repeat: 	no-repeat;
+	background-attachment:	fixed;
+}
+
+.roundedCornerBoxBordered .upperLeftCorner {
+	background: 		transparent;
+	background-image:	url('/resources/graphics/box-border/color-777777/rounded-corner-upper-left.gif');
+	background-repeat: 	no-repeat;
+	background-position: 	top left
+	background-attachment:	fixed;
+}
+
+.roundedCornerBoxBordered .upperRightCorner {
+	background: transparent;
+	background-image:	url('/resources/graphics/box-border/color-777777/rounded-corner-upper-right.gif');
+	background-repeat: 	no-repeat;
+	background-position: 	top right	
+	background-attachment:	fixed;
+}
+
+.roundedCornerBoxBordered .lowerLeftCorner {
+	background: 		transparent;
+	background-image:	url('/resources/graphics/box-border/color-777777/rounded-corner-lower-left.gif');
+	background-repeat: 	no-repeat;
+	background-position: 	bottom left	
+	background-attachment:	fixed;
+}
+
+.roundedCornerBoxBordered .lowerRightCorner {
+	background: 		transparent;
+	background-image:	url('/resources/graphics/box-border/color-777777/rounded-corner-lower-right.gif');
+	background-repeat: 	no-repeat;
+	background-position: 	100% 100%	
+	background-attachment:	fixed;
+}
+
+.roundedCornerBoxBordered .upperHorizontal {
+	background-image:	url('/resources/graphics/box-border/color-777777/box-border-upper.gif');
+	background-repeat: 	repeat;
+	background-position: 	top left
+}
+
+.roundedCornerBoxBordered .lowerHorizontal {
+	background-image:	url('/resources/graphics/box-border/color-777777/box-border-lower.gif');
+	background-repeat: 	repeat;
+	background-position: 	bottom left
+}
+
+.roundedCornerBoxBordered .leftVertical {
+	background-image:	url('/resources/graphics/box-border/color-777777/box-border-left.gif');
+	background-repeat: 	repeat;
+	background-position: 	top left
+}
+
+.roundedCornerBoxBordered .rightVertical {
+	background-image:	url('/resources/graphics/box-border/color-777777/box-border-right.gif');
+	background-repeat: 	repeat;
+	background-position: 	top right
+}
+/* --- End classes for rounded corner box bordered --- */
+
+
+/****************************************************************************************
+ * Classes for rounded corner box filled                                                *
+ ****************************************************************************************/
+.roundedCornerBoxFilled .upperLeftCorner, .roundedCornerBoxFilled .upperRightCorner, .roundedCornerBoxFilled .lowerLeftCorner, .roundedCornerBoxFilled .lowerRightCorner {
+	width: 15px;
+	height: 15px;
+	padding: 0px;
+	margin: 0px;
+	background-repeat: 	no-repeat;
+	background-attachment:	fixed;
+}
+
+.roundedCornerBoxFilled .upperLeftCorner {
+	background: 		transparent;
+	background-image:	url('/resources/graphics/rounded-corner-filled-upper-left.gif');
+	background-repeat: 	no-repeat;
+	background-position: 	top left
+	background-attachment:	fixed;
+}
+
+.roundedCornerBoxFilled .upperRightCorner {
+	background: transparent;
+	background-image:	url('/resources/graphics/rounded-corner-filled-upper-right.gif');
+	background-repeat: 	no-repeat;
+	background-position: 	top right	
+	background-attachment:	fixed;
+}
+
+.roundedCornerBoxFilled .lowerLeftCorner {
+	background: 		transparent;
+	background-image:	url('/resources/graphics/rounded-corner-filled-lower-left.gif');
+	background-repeat: 	no-repeat;
+	background-position: 	bottom left	
+	background-attachment:	fixed;
+}
+
+.roundedCornerBoxFilled .lowerRightCorner {
+	background: 		transparent;
+	background-image:	url('/resources/graphics/rounded-corner-filled-lower-right.gif');
+	background-repeat: 	no-repeat;
+	background-position: 	bottom left	
+	background-attachment:	fixed;
+}
+
+/* --- End classes for rounded corner box filled --- */
+
+/****************************************************************************************
+ * Classes for rounded corner image                                                     *
+ ****************************************************************************************/
+.roundedCornerImage div {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	width: 50%; 
+	height: 50%;
+	padding: 0px;
+	margin: 0px;
+	background-repeat: 	no-repeat;
+}
+
+.roundedCornerImage div.topLeftCorner {
+	float: left; 
+	background-image:  url(/resources/graphics/image-rounded-corners/on-background-white/rounded-corner-top-left_white.gif);
+	background-position: top left;
+}
+
+.roundedCornerImage div.topRightCorner {
+	float: right; 
+	background-image: url(/resources/graphics/image-rounded-corners/on-background-white/rounded-corner-top-right_white.gif);
+	background-position: top right;
+}
+
+.roundedCornerImage div.bottomRightCorner {
+	float: right;
+	background-image: url(/resources/graphics/image-rounded-corners/on-background-white/rounded-corner-bottom-right_white.gif);
+	background-position: bottom right;
+}
+
+.roundedCornerImage div.bottomLeftCorner {
+	float: left;
+	background-image: url(/resources/graphics/image-rounded-corners/on-background-white/rounded-corner-bottom-left_white.gif);
+	background-position: bottom left;
+}
+
+/* --- End classes for rounded corner image --- */
+

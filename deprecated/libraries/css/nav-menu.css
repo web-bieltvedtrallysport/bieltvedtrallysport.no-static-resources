@@ -1,0 +1,118 @@
+/* navigation styles */
+table.navigation-menu
+{ 
+	background-color: #444444;
+} 
+
+
+table.navigation-menu td
+{ 
+	font-family: tahoma, sans-serif;
+} 
+
+
+table.navigation-menu div.navigation-button
+{ 
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #AAAAAA black black #AAAAAA; 
+	width: 14px; 
+	height: 13px; 
+	white-space: nowrap; 
+	margin-right: 2px; 
+
+	text-transform: uppercase; 
+	cursor: hand; 
+	color: #FF9900; 
+	background-repeat: no-repeat;
+	background-position: center; 
+} 
+
+
+table.navigation-menu div.navigation-button.first
+{ 
+	background-image: url(http://www.bieltvedtrallysport.com/graphics/double-back-arrow.gif);
+} 
+
+
+table.navigation-menu div.navigation-button.first,
+table.navigation-menu
+{
+	background-position: 1px;
+} 
+
+
+table.navigation-menu div.navigation-button.previous-page,
+table.navigation-menu, 
+table.navigation-menu div.navigation-button.next-page, 
+table.navigation-menu 
+{ 
+	font-size: 9px;
+} 
+
+
+table.navigation-menu div.navigation-button.previous-page
+{ 
+	background-image: url(http://www.bieltvedtrallysport.com/graphics/back-arrow.gif);
+} 
+
+
+table.navigation-menu div.navigation-button.previous-page
+{ 
+	background-position: 2px; padding: 0 3px 0 10px;
+} 
+
+
+table.navigation-menu div.navigation-button.next-page
+{ 
+	background-image: url(http://www.bieltvedtrallysport.com/graphics/forward-arrow.gif);
+}
+
+div.navigation-button.button
+{ 
+	background-image: url(http://www.bieltvedtrallysport.com/graphics/forward-arrow.gif);
+}
+
+
+table.navigation-menu div.navigation-button.next-page
+{ 
+	background-position: right; 
+	padding: 0 10px 0 3px;
+}
+
+
+table.navigation-menu div.navigation-button.last
+{ 
+	background-image: url(http://www.bieltvedtrallysport.com/graphics/double-front-arrow.gif);
+} 
+
+
+table.navigation-menu div.navigation-button.last
+{ 
+	background-position: 1px;
+} 
+
+
+table.navigation-menu div.navigation-numbers
+{ 
+	margin-right: 2px; 
+	background: #333333; 
+	width: 14px; 
+	height: 13px; 
+	text-align: center; 
+	padding-left: 1px; 
+	font-weight: bold; 
+	font-size: 10px; 
+	color: #FF9900; 
+	cursor: hand;
+	float: left;
+} 
+
+
+table.navigation-menu div.navigation-numbers.selected
+{ 
+	color: #333333; 
+	background-color: #FF9900; 
+	cursor: auto;
+}
+/* end navigation styles */

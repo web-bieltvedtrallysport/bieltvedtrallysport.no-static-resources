@@ -1,0 +1,65 @@
+/** BASIC */
+
+html, body {
+	height: 100%;
+}
+
+/** LOGO */
+
+#logo {
+	margin: 0px auto;
+}
+
+#logo h1 {
+	float: left;
+}
+
+#logo p {
+	float: right;
+}
+
+/** HEADER */
+
+#header {
+	margin: 0px auto;
+}
+
+#splash {
+	float: right;
+}
+
+/** MENU */
+
+#menu {
+	float: left;
+}
+
+#menu li {
+	float: left;
+}
+
+/** PAGE */
+
+#page {
+	margin: 0px auto;
+}
+
+/** CONTENT */
+
+#content {
+	float: right;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+	float: left;
+}
+
+/** FOOTER */
+
+#footer {
+	margin: 0px auto;
+}
+
+

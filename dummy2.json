@@ -1,0 +1,88 @@
+{
+  "rss": {
+    "@attributes": {
+      "version": "2.0"
+    },
+    "channel": {
+      "title": "WRC News from wrc.com!!!",
+      "link": "http:\/\/www.wrc.com\/services\/newsrss.jsp",
+      "description": "Latest WRC News from wrc.com",
+      "copyright": "Copyright 2007-10, North One Sport\/WRC",
+      "language": "en-GB",
+      "webMaster": "contact@wrc.com (Contact)",
+      "lastBuildDate": "Fri, 20 Jul 2012 05:07:00 +0100",
+      "item": [
+        {
+          "pubDate": "Fri, 20 Jul 2012 05:07:00 +0100",
+          "title": "Sordo to star at Madrid X-Fighters event",
+          "guid": "http:\/\/www.wrc.com\/news\/sordo-to-star-at-madrid-x-fighters-event\/?fid=17072",
+          "link": "http:\/\/www.wrc.com\/news\/sordo-to-star-at-madrid-x-fighters-event\/?fid=17072",
+          "description": "MINI WRC ace will thrill crowds at Red Bull spectacular"
+        },
+        {
+          "pubDate": "Fri, 20 Jul 2012 11:16:00 +0100",
+          "title": "Ostberg fit and ready for Estonia battle",
+          "guid": "http:\/\/www.wrc.com\/news\/ostberg-fit-and-ready-for-estonia-battle\/?fid=17071",
+          "link": "http:\/\/www.wrc.com\/news\/ostberg-fit-and-ready-for-estonia-battle\/?fid=17071",
+          "description": "World championship ace confident of success on practice rally"
+        },
+        {
+          "pubDate": "Thu, 19 Jul 2012 05:00:00 +0100",
+          "title": "Citroen underlines WRC commitment",
+          "guid": "http:\/\/www.wrc.com\/news\/citroen-underlines-wrc-commitment\/?fid=17069",
+          "link": "http:\/\/www.wrc.com\/news\/citroen-underlines-wrc-commitment\/?fid=17069",
+          "description": "Programme not dependent on performance of parent company"
+        },
+        {
+          "pubDate": "Thu, 19 Jul 2012 01:39:00 +0100",
+          "title": "Barcelona start for WRC finale",
+          "guid": "http:\/\/www.wrc.com\/news\/barcelona-start-for-wrc-finale\/?fid=17067",
+          "link": "http:\/\/www.wrc.com\/news\/barcelona-start-for-wrc-finale\/?fid=17067",
+          "description": "Crews to descend on Catalan capital"
+        },
+        {
+          "pubDate": "Wed, 18 Jul 2012 05:27:00 +0100",
+          "title": "Tidemand goes back in time",
+          "guid": "http:\/\/www.wrc.com\/news\/tidemand-goes-back-in-time\/?fid=17066",
+          "link": "http:\/\/www.wrc.com\/news\/tidemand-goes-back-in-time\/?fid=17066",
+          "description": "WRC Academy star to sample historic-specification Escort on gravel event"
+        },
+        {
+          "pubDate": "Wed, 18 Jul 2012 12:00:00 +0100",
+          "title": "Generous Sandell makes birthday gesture",
+          "guid": "http:\/\/www.wrc.com\/news\/generous-sandell-makes-birthday-gesture\/?fid=17061",
+          "link": "http:\/\/www.wrc.com\/news\/generous-sandell-makes-birthday-gesture\/?fid=17061",
+          "description": "Sweden World Rally Team ace arranges outing for father"
+        },
+        {
+          "pubDate": "Wed, 18 Jul 2012 08:00:00 +0100",
+          "title": "Ostberg back in action following back scare",
+          "guid": "http:\/\/www.wrc.com\/news\/ostberg-back-in-action-following-back-scare\/?fid=17062",
+          "link": "http:\/\/www.wrc.com\/news\/ostberg-back-in-action-following-back-scare\/?fid=17062",
+          "description": "Norwegian to defend Rally Estonia title after Czech shakedown crash"
+        },
+        {
+          "pubDate": "Tue, 17 Jul 2012 04:00:00 +0100",
+          "title": "Ford crews get that Olympic feeling",
+          "guid": "http:\/\/www.wrc.com\/news\/ford-crews-get-that-olympic-feeling\/?fid=17059",
+          "link": "http:\/\/www.wrc.com\/news\/ford-crews-get-that-olympic-feeling\/?fid=17059",
+          "description": "Sports day-style fun for WRC drivers and co-drivers"
+        },
+        {
+          "pubDate": "Tue, 17 Jul 2012 02:32:00 +0100",
+          "title": "Lindholm just wants to have fun on WRC return",
+          "guid": "http:\/\/www.wrc.com\/news\/lindholm-just-wants-to-have-fun-on-wrc-return\/?fid=17058",
+          "link": "http:\/\/www.wrc.com\/news\/lindholm-just-wants-to-have-fun-on-wrc-return\/?fid=17058",
+          "description": "Veteran Finn plans to enjoy himself in Ford Fiesta"
+        },
+        {
+          "pubDate": "Tue, 17 Jul 2012 09:08:00 +0100",
+          "title": "Practice rally boosts Evans for Finland",
+          "guid": "http:\/\/www.wrc.com\/news\/practice-rally-boosts-evans-for-finland\/?fid=17057",
+          "link": "http:\/\/www.wrc.com\/news\/practice-rally-boosts-evans-for-finland\/?fid=17057",
+          "description": "Co-driver Pugh happy with young star's preparations"
+        }
+      ]
+    }
+  }
+}
